@@ -1,0 +1,12 @@
+{
+	"accounts": [
+		{
+			"address": "your address 1",
+			"privateKey": "your private key 1"
+		},
+		{
+			"address": "your address 2",
+			"privateKey": "your private key 2"
+		}
+	]
+}

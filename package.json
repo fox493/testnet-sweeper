@@ -1,0 +1,24 @@
+{
+  "name": "testnet-sweeper",
+  "version": "1.0.0",
+  "description": "sweep the balance of all address you own (on testnet)\r ## how to run?\r ### 1.config accounts.json\r all the scripts I push up will use accounts.json formatted like this (there would be a template):\r ```json\r {\r   \"accounts\": [\r     {\r       \"address\": \"0x123\",\r       \"privateKey\": \"0x123\",\r     },\r     {\r       \"address\": \"0x456\",\r       \"privateKey\": \"0x456\",\r     }\r     ...\r   ]\r }\r ```\r ### 2.run script\r ```shell\r node sweep\r ```\r ### 3.cli\r when you run the script, you would see the cli like this:\r ```shell\r  Ξ Receipt Account: 1\r  Ξ Choose the network (Use arrow keys)\r > homestead\r   rinkeby\r   ropsten\r   kovan\r   goerli\r ```\r just follow the lead, type in your recipt account (recieve all ETH sweeped), and choose the testnet.",
+  "main": "sweep.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimGrey998/testnet-sweeper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimGrey998/testnet-sweeper/issues"
+  },
+  "homepage": "https://github.com/TimGrey998/testnet-sweeper#readme",
+  "dependencies": {
+    "ethers": "^5.6.1",
+    "inquirer": "^8.2.1"
+  }
+}
